@@ -1,0 +1,72 @@
+body {
+    margin: 0px;
+    background: silver;
+}
+.target {
+    background: orange;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 40px;
+    margin: 10px;
+    box-shadow: black 7px 7px 0px 0px;
+    border: 2px solid black;
+}
+.target2 {
+    background: orange;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 40px;
+    margin: 10px;
+    box-shadow: black 5px 5px 2px 0px;
+    border: 2px solid black;
+}
+.target3 {
+    background: orange;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 40px;
+    margin: 10px;
+    box-shadow: black 7px 7px 7px 1px;
+    border: 2px solid black;
+}
+.target4 {
+    background: orange;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 40px;
+    margin: 10px;
+    box-shadow: gray 10px 10px 4px 0px;
+    border: 2px solid black;
+}
+.target5 {
+    background: orange;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 40px;
+    margin: 10px;
+    box-shadow: black 9px 9px 0px 0px;
+    border-radius: 5%;
+    border: 2px solid black;
+}
+.target6 {
+    background: orange;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 40px;
+    margin: 10px;
+    box-shadow: gray 9px 9px 0px 0px;
+    border-radius: 5%;
+    border: 2px solid black;
+}>
