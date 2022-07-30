@@ -1,0 +1,14 @@
+.target {
+    background: silver;
+    height: 100px;
+    width: 300px;
+    border: 10px solid red;
+
+}
+.point {
+    width: 200px;
+    height: auto;
+    background: coral;
+    padding: 30px;
+    box-sizing: border-box;
+}
