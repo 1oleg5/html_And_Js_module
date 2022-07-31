@@ -1,0 +1,22 @@
+body {
+    margin: 0px;
+}
+.father {
+    background: coral;
+}
+.header {
+    background: orange;
+}
+.a {
+    background: chocolate;
+}
+.b {
+    background: gold;
+}
+.c {
+    background: yellow;
+}
+.L {
+    display: block;
+    height: 400px;
+}
