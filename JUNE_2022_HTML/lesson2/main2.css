@@ -1,0 +1,47 @@
+body {
+    background: silver;
+}
+.target {
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+}
+.a {
+    width: 700px;
+    height: 200px;
+    background: cornflowerblue;
+    text-align: center;
+}
+.center {
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    height: 200px;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.b {
+    height: 200px;
+    width: 220px;
+    background: blue;
+    text-align: center;
+}
+.c {
+    height: 200px;
+    width: 220px;
+    background: blue;
+    text-align: center;
+}
+.d {
+    height: 200px;
+    width: 220px;
+    background: blue;
+    text-align: center;
+}
+.e {
+    width: 700px;
+    height: 400px;
+    background: cornflowerblue;
+    text-align: center;
+    margin-top: 20px;
+}
