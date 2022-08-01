@@ -1,14 +1,55 @@
-.target {
+body {
     background: silver;
-    height: 100px;
-    width: 300px;
-    border: 10px solid red;
-
 }
-.point {
+.father {
+    display: flex;
+    flex-direction: row;
+    height: 450px;
+    width: 1000px;
+    justify-content: space-around;
+}
+.a {
+    width: 270px;
+    height: 400px;
+    border: 2px solid black;
+    text-align: center;
+    background: white;
+}
+.aa {
     width: 200px;
-    height: auto;
-    background: coral;
-    padding: 30px;
-    box-sizing: border-box;
+    height: 50px;
+    border: 2px solid black;
+    text-align: center;
+    margin-top: 300px;
+    margin-left: 35px;
+}
+.b {
+    width: 270px;
+    height: 400px;
+    border: 2px solid black;
+    text-align: center;
+    background: white;
+}
+.bb {
+    width: 200px;
+    height: 50px;
+    border: 2px solid black;
+    text-align: center;
+    margin-top: 300px;
+    margin-left: 35px;
+}
+.c {
+    width: 270px;
+    height: 400px;
+    border: 2px solid black;
+    text-align: center;
+    background: white;
+}
+.cc {
+    width: 200px;
+    height: 50px;
+    border: 2px solid black;
+    text-align: center;
+    margin-top: 300px;
+    margin-left: 35px;
 }
