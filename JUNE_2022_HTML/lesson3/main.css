@@ -1,0 +1,33 @@
+ body {
+     background: silver;
+     margin-top: 40px;
+ }
+ .target {
+     display: flex;
+     justify-content: space-around;
+     height: 350px;
+     width: 1000px;
+ }
+ .R {
+     background: white;
+     height: 320px;
+     width: 270px;
+     box-sizing: border-box;
+     border: black solid 2px;
+     text-align: center;
+     padding-top: 70px;
+ }
+.b {
+    height: 50px;
+    width: 120px;
+    border: black solid 2px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 12px;
+    margin-top: 18px;
+    margin-left: 75px;
+}
+.a {
+    padding: 50px 20px 20px;
+}
+

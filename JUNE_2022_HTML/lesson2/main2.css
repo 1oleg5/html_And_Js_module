@@ -5,12 +5,15 @@ body {
     display: flex;
     flex-wrap: wrap;
     width: 700px;
+    height: 820px;
 }
 .a {
     width: 700px;
     height: 200px;
     background: cornflowerblue;
     text-align: center;
+    box-sizing: border-box;
+    padding-top: 87px;
 }
 .center {
     display: flex;
@@ -25,18 +28,24 @@ body {
     width: 220px;
     background: blue;
     text-align: center;
+    box-sizing: border-box;
+    padding-top: 87px;
 }
 .c {
     height: 200px;
     width: 220px;
     background: blue;
     text-align: center;
+    box-sizing: border-box;
+    padding-top: 87px;
 }
 .d {
     height: 200px;
     width: 220px;
     background: blue;
     text-align: center;
+    box-sizing: border-box;
+    padding-top: 87px;
 }
 .e {
     width: 700px;
@@ -44,4 +53,6 @@ body {
     background: cornflowerblue;
     text-align: center;
     margin-top: 20px;
+    box-sizing: border-box;
+    padding-top: 200px;
 }
