@@ -18,47 +18,47 @@ console.log(ua);
 document.write(`${ua} `);
 alert(ua);
 
-let q = '1';
-console.log(q);
-document.write(`${q} `);
-alert(q)
+let n1 = '1';
+console.log(n1);
+document.write(`${n1} `);
+alert(n1)
 
-let w = '10';
-console.log(w);
-document.write(`${w} `);
-alert(w);
+let n2 = '10';
+console.log(n2);
+document.write(`${n2} `);
+alert(n2);
 
-let e = '-999';
-console.log(e);
-document.write(`${e} `);
-alert(e);
+let n3 = '-999';
+console.log(n3);
+document.write(`${n3} `);
+alert(n3);
 
-let r = '123';
-console.log(r);
-document.write(`${r} `);
-alert(r);
+let n4 = '123';
+console.log(n4);
+document.write(`${n4} `);
+alert(n4);
 
-let t = '3.14';
-console.log(t);
-document.write(`${t} `);
-alert(t);
+let n5 = '3.14';
+console.log(n5);
+document.write(`${n5} `);
+alert(n5);
 
-let y = '2.7';
-console.log(y);
-document.write(`${y} `);
-alert(y);
+let n6 = '2.7';
+console.log(n6);
+document.write(`${n6} `);
+alert(n6);
 
-let u = '16';
-console.log(u);
-document.write(`${u} `);
-alert(u);
+let n7 = '16';
+console.log(n7);
+document.write(`${n7} `);
+alert(n7);
 
-let boolean = 'true';
-console.log(boolean);
-document.write(`${boolean} `);
-alert(boolean);
+let b1= 'true';
+console.log(b1);
+document.write(`${b1} `);
+alert(b1);
 
-let bool= 'false';
-console.log(bool);
-document.write(bool);
-alert(bool);
+let b2= 'false';
+console.log(b2);
+document.write(b2);
+alert(b2);
