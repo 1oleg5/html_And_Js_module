@@ -1,0 +1,45 @@
+.wrap {
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card {
+    width: 250px;
+    height: 350px;
+    margin-top: 70px;
+    border: black 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.icon {
+    width: 85px;
+    height: 85px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: -370px;
+    background: white;
+}
+.icon > img {
+    width: 30px;
+    height: 30px;
+}
+.btn {
+    width: 150px;
+    height: 50px;
+    border: black solid 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card > p {
+    margin-left: 25px;
+}
