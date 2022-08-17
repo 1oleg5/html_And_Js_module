@@ -1,4 +1,6 @@
-let a = [55,85,96,74,332,879,412,'okten',47,11];
+// - Створити масив, наповнити його 10 елементами будь-якого типу, вивести кожен елемент в консоль
+
+let a = [{name: 'John'},85,96,false,332,true,412,'okten',[1,5,87],11];
 console.log(a[0]);
 console.log(a[1]);
 console.log(a[2]);
@@ -11,29 +13,29 @@ console.log(a[8]);
 console.log(a[9]);
 
 
+// - Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre.
 
-
-let book1 = {
+const book1 = {
     title: 'Simpsons',
     pageCount: '249',
     genre: 'Comedy'
 }
 
 
-let book2 = {
+const book2 = {
     title: 'English',
     pageCount: '127',
     genre: 'Study'
 }
 
-
-let book3 = {
+ const book3 = {
     title: 'Geography',
     pageCount: '278',
     genre: 'Study'
 }
 console.log(book1, book2, book3,);
 
+// - Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre, authors. Поле "автори" - масив. Кожен автор має поля name,age
 
 
 
@@ -41,7 +43,11 @@ let books1 = {
     title: 'Ghost',
     pageCount: '847',
     genre: 'Fantasy',
-    authors: [name = 'Judy', age = 47]
+    authors: [
+        {name: 'Judy',
+        age:32
+        }
+    ]
 }
 
 
@@ -49,7 +55,10 @@ let books2 = {
     title: 'How to build a house',
     pageCount: '952',
     genre: 'Engineering',
-    authors: [name = 'Antony S', age = '28']
+    authors: [
+        {name: 'Antony S',
+            age: '28'}
+    ]
 }
 
 
@@ -57,12 +66,16 @@ let books3 = {
     title: 'Love story',
     pageCount: '246',
     genre: 'Love',
-    authors: [name = 'Jessika K', age = '56']
+    authors: [
+        {name: 'Jessika K',
+        age: '56'}
+    ]
 }
 console.log(books1, books2, books3);
 
 
 
+// - Створити масив з 10 об'єктами які описують сутніть "користувач". Поля: name, username,password. Вивести в консоль пароль кожного користувача
 
 
 
