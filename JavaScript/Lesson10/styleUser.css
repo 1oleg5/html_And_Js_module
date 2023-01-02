@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+.house {
+    background: aliceblue;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.post {
+    width: 90%;
+    margin-left: 5%;
+    background: azure;
+    border-radius: 5px;
+}
+.posts {
+    margin-top: 5px;
+    margin-left: calc(10% - 110px);
+    margin-right: calc(10% - 110px);
+    width: 220px;
+    height: 36px;
+    background: cornsilk;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    overflow: hidden;
+}
+.posts > h2 {
+    width: 90px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    padding: 1px;
+}
+.but {
+    border-radius: 5px;
+    background: silver;
+    height: 30px;
+    margin-top: 3px;
+}
